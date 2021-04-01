@@ -24,7 +24,7 @@
             <a-asset-item id="heart" src="anatomical_heart_-_codominance/scene.gltf"></a-asset-item>
         </a-assets>
 
-        <a-marker type='barcode' value='2' raycaster="objects: .clickable" emitevents="true"
+        <a-marker type='barcode' value='2' smooth="true" raycaster="objects: .clickable" emitevents="true"
             cursor="fuse: false; rayOrigin: mouse;" id="markerA">
             <a-entity id="heart-model"  gltf-model="#heart"  position="0 0 0" scale="0.009 0.009 0.009" class="clickable"
                 gesture-handler="minScale: 0.25; maxScale: 10">
